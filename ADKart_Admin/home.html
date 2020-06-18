@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<title>Admin Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel = "stylesheet">
+	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ADKart</a>
+    </div>
+    <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="#">Customers</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    	<li><p id="bigOne" class="navbar-text"></p></span></li>
+        <li><button id ="btnLogout" onclick="SubmitClick1()" class="btn btn-primary navbar-btn">Logout</button></span></li>
+    </ul>
+ </div>
+
+</div>
+</nav>
+	
+    
+
+       <div style="background:transparent !important"    class=" container jumbotron">
+        <div class="col-lg-8" >
+       <h3>Enter New Product</h3></br>
+       <div class="col-lg-6" >
+       <input id="pid" type="text" class="form-control" placeholder="Product Id"/></br>
+		<input id="pname" type="text" class="form-control" placeholder="Product Name"/></br>
+		<input id="price" type="text" class="form-control" placeholder="Product Price"  /></br>
+        <button id ="Submit" onclick="SubmitClick2()" class="btn btn-primary">Submit</button>
+       </div>
+     </div>
+
+    <div class="col-lg-4 " >
+	<h3>Current Users</h3>
+
+<ol class="list-group" id="list1" ></ol>
+<!--<ul id="list2"></ul>-->
+</div>
+</div>
+
+	<script src='app1.js'></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139132425529",
+    "firebase_url": "https://selfcheckout-26152.firebaseio.com",
+    "project_id": "selfcheckout-26152",
+    "storage_bucket": "selfcheckout-26152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139132425529:android:ae815a56ed48c9f59084e8",
+        "android_client_info": {
+          "package_name": "com.a0quickcartgmail.quickart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139132425529-ngu10qiausau0h9415k261cihms96r48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a0quickcartgmail.quickart",
+            "certificate_hash": "b68df4937467c789be17d53ac131f5644097ca7e"
+          }
+        },
+        {
+          "client_id": "139132425529-ma7de12kim3vrau406u464fdctintff3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6brc4g2hwLgwaAEvaplbXsFP_3yh-3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139132425529-ma7de12kim3vrau406u464fdctintff3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
